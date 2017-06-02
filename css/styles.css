@@ -33,12 +33,66 @@ h1, h3, p {
   display: none;
 }
 
-.glow {
-  box-shadow: 0 0 30px #e9e826;
-  opacity: .7;
-  transition: all .7s;
+
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
 }
 
+/*/////////////////////          NAVBAR          /////////////////////*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bfd1c3;
+}
+
+li {
+    float: left;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bolder;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #004811;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 /*/////////////////////          FEATURES          /////////////////////*/
 .feature1 img {
   opacity: .8;
@@ -98,7 +152,8 @@ h1 {
 .card {
   padding: 1vw;
   margin: 1vw 0;
-  background-color: rgba(0, 72, 17, .25);;
+  background-color: rgba(0, 72, 17, .25);
+  box-shadow: 0px 0px 2px black;
 }
 
 .card img {
@@ -124,6 +179,15 @@ h3 {
   font-family: 'Yantramanav', sans-serif;
 }
 
+.glow {
+  box-shadow: 0 0 30px #e9e826;
+  opacity: .7;
+  transition: all .7s;
+}
+
+a {
+  
+}
 /*/////////////////////          @MEDIA          /////////////////////*/
 @media screen and (max-width: 560px) {
   .extend {
