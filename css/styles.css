@@ -29,12 +29,20 @@ h1, h3, p {
   margin: 0;
 }
 
+.initially-hidden {
+  display: none;
+}
+
 /*/////////////////////          FEATURES          /////////////////////*/
 .img-content {
   position: absolute;
   width: 95%;
   color: white;
   left: 2.5%;
+}
+
+.feature1 {
+  margin-bottom: 1vh;
 }
 
 .feature1 .img-content{
@@ -58,9 +66,10 @@ h1 {
   font-size: 2vmax
 }
 /*/////////////////////          CARDS          /////////////////////*/
+
 .card {
   padding: 1vh;
-  margin: 2vh 0;
+  margin: 1vh 0;
   background-color: rgba(0, 72, 17, .25);;
 }
 
@@ -80,9 +89,67 @@ h3 {
   text-transform: uppercase;
 }
 
-.card p {
+.card p:first-of-type {
   font-size: .8em;
   font-style: italic;
   color: #777;
   font-family: 'Yantramanav', sans-serif;
+}
+
+/*/////////////////////          @MEDIA          /////////////////////*/
+
+@media screen and (min-width: 720px) {
+  body {
+  }
+
+  .card {
+    width: 49%;
+    margin: 1% 0;
+    padding: 0;
+    float: left;
+    clear: none;
+    text-align: center;
+  }
+  .card:nth-child(even) {
+    margin-right: 2%;
+  }
+  .card img {
+    width: 100%;
+  }
+  .card-content {
+    float: none;
+    width: 100%;
+  }
+  p[class=initially-hidden] {
+    display: block;
+    text-align: left;
+    margin: 10px;
+    font-style: italic;
+  }
+  .card h3 {
+    font-size: 150%;
+  }
+  .feature2 {
+    padding-top: 1vh;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: red;
+  }
+  .feature {
+    width: 50%;
+    margin: 0;
+    float: left;
+  }
+
+  .card {
+    width: 25%;
+    margin: 0;
+  }
+  .card:nth-child(odd) {
+    margin: 0;
+  }
+
 }
