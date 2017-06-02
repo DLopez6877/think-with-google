@@ -1,12 +1,12 @@
 # _Timbers fan page_
 
-#### _Timbers fan page, 5/26/2017_
+#### _Timbers fan page, 6/2/2017_
 
 #### By _**Daniel Lopez**_
 
 ## Description
 
-_CSS Week 2 responsive design independent project. Epicodus._ 
+_CSS Week 2 responsive design independent project. Epicodus._
 
 ## Objectives
 _Re-build the Latest trends and stories section of Think with Google.
