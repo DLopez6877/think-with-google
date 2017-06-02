@@ -34,6 +34,9 @@ h1, h3, p {
 }
 
 /*/////////////////////          FEATURES          /////////////////////*/
+.feature1 img {
+  opacity: .7;
+}
 .img-content {
   position: absolute;
   width: 95%;
@@ -46,7 +49,7 @@ h1, h3, p {
 }
 
 .feature1 .img-content{
-  top: 30%;
+  top: 28%;
 }
 
 .feature2 .img-content{
@@ -54,16 +57,16 @@ h1, h3, p {
 }
 
 h1 {
-  font-size: 4vmax;
+  font-size: 4vh;
   font-family: 'Anton', sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 .feature p {
-  margin-top: 2vmax;
+  margin-top: 2vh;
   font-family: 'Yantramanav', sans-serif;
-  font-size: 2vmax
+  font-size: 2vh
 }
 .feature2 {
   padding-top: 1vw;
@@ -134,7 +137,7 @@ h3 {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) and (orientation : landscape) {
   .feature {
     width: 42.5vw;
     margin: 0;
@@ -163,5 +166,37 @@ h3 {
   }
   p[class=initially-hidden] {
     display: none;
+  }
+}
+/*//////////////////            H1 FONT            //////////////////*/
+@media screen and (min-aspect-ratio: 25/8) {
+  h1 {
+    font-size: 2vw;
+  }
+  .feature p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 720px) and (max-aspect-ratio: 8/11) {
+  h1 {
+    font-size: 6vw;
+  }
+  .feature p {
+    margin-top: 2vw;
+    font-size: 5vw;
+  }
+  .feature1 .img-content{
+    top: 2%;
+  }
+}
+@media screen and (min-width: 1000px) and (max-aspect-ratio: 10/7) {
+  h1 {
+    font-size: 5vw;
+  }
+}
+@media screen and (min-width: 720px) and (max-aspect-ratio: 12/8) {
+  h1 {
+    font-size: 3vh;
   }
 }
