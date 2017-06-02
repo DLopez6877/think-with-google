@@ -278,8 +278,10 @@ a {
     height: 24vw !important;
   }
   .card2[class$="glow"] {
-    width: 22.5vw !important;
-    height: 22.5vw !important;
+    margin: 0;
+    width: 23.5vw !important;
+    height: 23.5vw !important;
+    transform: translateX(-2.5vw);
   }
 @media screen and (min-width: 1600px) and (orientation : landscape) {
   h3 {
