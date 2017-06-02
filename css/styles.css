@@ -142,13 +142,14 @@ h3 {
     width: 50%;
     margin: 0;
     float: left;
+    clear: none;
   }
 
   .card {
     width: 25%;
     margin: 0;
   }
-  .card:nth-child(odd) {
+  .card:nth-child(even) {
     margin: 0;
   }
 
