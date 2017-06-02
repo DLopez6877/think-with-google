@@ -206,6 +206,7 @@ a {
   }
 }
 
+/*medium screens*/
 @media screen and (min-width: 720px) {
   .card {
     width: 49%;
@@ -239,6 +240,7 @@ a {
   }
 }
 
+/*large screens*/
 @media screen and (min-width: 1000px) and (orientation : landscape) {
   .feature {
     width: 42.5vw;
@@ -269,8 +271,16 @@ a {
   p[class=initially-hidden] {
     display: none;
   }
-}
-
+  }
+  .card[class$="glow"]:not(.card2) {
+    margin: 0 !important;
+    width: 24vw !important;
+    height: 24vw !important;
+  }
+  .card2[class$="glow"] {
+    width: 22.5vw !important;
+    height: 22.5vw !important;
+  }
 @media screen and (min-width: 1600px) and (orientation : landscape) {
   h3 {
     margin-top: 68%;
