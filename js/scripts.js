@@ -9,4 +9,14 @@ $(function(){
     function(){ $(this).removeClass('glow') }
   )
 
+  $(function () {
+  count = 0;
+  wordsArray = ["adore", "admire", "adore", "honor", "adore", "praise"];
+  setInterval(function () {
+    count++;
+    $("#changeText").fadeOut(400, function () {
+      $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400);
+    });
+  }, 5000);
+  });
 });

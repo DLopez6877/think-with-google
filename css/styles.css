@@ -68,9 +68,11 @@ h1 {
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
-
 .feature1 h1 {
-  background: -webkit-linear-gradient(left, #85a78d, #004811, #85a78d, #004811 );
+  color: #133e1d;
+}
+.timbers {
+  background: -webkit-linear-gradient(left,#004811, #004811, #e9e826 );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -84,6 +86,12 @@ h1 {
 }
 .feature2 {
   padding-top: 1vw;
+}
+
+#changeText {
+  background: -webkit-linear-gradient(#589065, #004811 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*/////////////////////          CARDS          /////////////////////*/
 
