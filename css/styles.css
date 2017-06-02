@@ -1,0 +1,18 @@
+/* For testing only */
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+  background-color: white;
+  opacity: .7;
+}
+
+.column {
+  min-height: 100px;
+}
+
+/*/////////////////////          GENERAL          /////////////////////*/
+body {
+  margin: 0;
+  background-color: lightblue;
+  font-size: 3vmax;
+}
