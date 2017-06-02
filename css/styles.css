@@ -41,57 +41,68 @@ a:link, a:visited {
 
 /*/////////////////////          NAVBAR          /////////////////////*/
 ul {
-    list-style-type: none;
-    margin: 0;
-    margin-bottom: 20px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #bfd1c3;
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #bfd1c3;
 }
 
 li {
-    float: left;
-    font-family: 'Yantramanav', sans-serif;
-    font-weight: bolder;
+  float: left;
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: bolder;
 }
 
 li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #004811;
+  background-color: #004811;
+  color: #e9e826;
 }
 
 li.dropdown {
-    display: inline-block;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #004811;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  text-transform: uppercase;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: #004811;
+}
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
+}
+
+ul img {
+  float: right;
+  width: 49px;
+  margin-right: 16px;
 }
 /*/////////////////////          FEATURES          /////////////////////*/
 .feature1 img {
@@ -186,7 +197,7 @@ h3 {
 }
 
 a {
-  
+
 }
 /*/////////////////////          @MEDIA          /////////////////////*/
 @media screen and (max-width: 560px) {
