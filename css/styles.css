@@ -42,7 +42,7 @@ h1, h3, p {
 }
 
 .feature1 {
-  margin-bottom: 1vh;
+  margin-bottom: 1vw;
 }
 
 .feature1 .img-content{
@@ -65,11 +65,14 @@ h1 {
   font-family: 'Yantramanav', sans-serif;
   font-size: 2vmax
 }
+.feature2 {
+  padding-top: 1vw;
+}
 /*/////////////////////          CARDS          /////////////////////*/
 
 .card {
-  padding: 1vh;
-  margin: 1vh 0;
+  padding: 1vw;
+  margin: 1vw 0;
   background-color: rgba(0, 72, 17, .25);;
 }
 
@@ -129,28 +132,36 @@ h3 {
   .card h3 {
     font-size: 150%;
   }
-  .feature2 {
-    padding-top: 1vh;
-  }
 }
 
 @media screen and (min-width: 1000px) {
-  body {
-    background-color: red;
-  }
   .feature {
-    width: 50%;
+    width: 42.5vw;
     margin: 0;
     float: left;
     clear: none;
   }
-
+  .feature2 {
+    padding: 0;
+  }
   .card {
-    width: 25%;
-    margin: 0;
+    width: 18.8vw;
+    min-height: 18.8vw;
+    margin: 2.56vw 0vw;
   }
   .card:nth-child(even) {
-    margin: 0;
+    width: 18.8vw;
+    min-height: 18.8vw;
+    margin: 2.56vw 2.5vw;
   }
-
+  .card:nth-child(4) {
+    clear: both;
+    margin-left: 0;
+  }
+  .card:nth-child(5) {
+    margin-right: 2.56vw;
+  }
+  p[class=initially-hidden] {
+    display: none;
+  }
 }
