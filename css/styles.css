@@ -1,15 +1,7 @@
-/* For testing only */
-*:not(body):not(html) {
-  box-sizing:border-box;
-  border:1px dashed #000;
-  background-color: white;
-  opacity: .7;
-}
-
 /*/////////////////////          GENERAL          /////////////////////*/
 body {
   margin: 0;
-  background-color: lightblue;
+  background-color: #004811;
 }
 
 .wrapper {
@@ -22,7 +14,9 @@ img {
 }
 
 .container {
-  margin: 2vh 5vw;
+  margin: 2.5vw;
+  padding: 2.5vw;
+  background-color: white;
 }
 
 .cf {
@@ -38,13 +32,34 @@ h1, h3, p {
 /*/////////////////////          FEATURES          /////////////////////*/
 .img-content {
   position: absolute;
-  top: 70%;
-  left: 2.5%;
   width: 95%;
+  color: white;
+  left: 2.5%;
+}
+
+.feature1 .img-content{
+  top: 30%;
+}
+
+.feature2 .img-content{
+  top: 70%;
+}
+
+h1 {
+  font-size: 4vmax;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.feature p {
+  margin-top: 2vmax;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 2vmax
 }
 /*/////////////////////          CARDS          /////////////////////*/
 .card {
-  padding: 10px;
+  padding: 2%;
   margin: 2vh 0;
 }
 
@@ -56,4 +71,17 @@ h1, h3, p {
 .card-content {
   float: right;
   width: 73%;
+}
+
+h3 {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.card p {
+  font-size: .8em;
+  font-style: italic;
+  color: #999;
+  font-family: 'Yantramanav', sans-serif;
 }
