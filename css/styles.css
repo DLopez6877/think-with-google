@@ -33,9 +33,15 @@ h1, h3, p {
   display: none;
 }
 
+.glow {
+  box-shadow: 0 0 30px #e9e826;
+  opacity: .7;
+  transition: all .7s;
+}
+
 /*/////////////////////          FEATURES          /////////////////////*/
 .feature1 img {
-  opacity: .7;
+  opacity: .8;
 }
 .img-content {
   position: absolute;
@@ -63,10 +69,18 @@ h1 {
   text-transform: uppercase;
 }
 
+.feature1 h1 {
+  background: -webkit-linear-gradient(left, #85a78d, #004811, #85a78d, #004811 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .feature p {
   margin-top: 2vh;
   font-family: 'Yantramanav', sans-serif;
-  font-size: 2vh
+  font-size: 2vh;
+  text-shadow: 1px 1px 1px black;
+  color: #e9e826;
 }
 .feature2 {
   padding-top: 1vw;
