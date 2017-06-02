@@ -6,10 +6,6 @@
   opacity: .7;
 }
 
-.column {
-  min-height: 100px;
-}
-
 /*/////////////////////          GENERAL          /////////////////////*/
 body {
   margin: 0;
@@ -18,6 +14,7 @@ body {
 
 .wrapper {
   position: relative;
+  overflow: hidden;
 }
 
 img {
@@ -34,10 +31,14 @@ img {
   clear: both;
 }
 
+h1, h3, p {
+  margin: 0;
+}
+
 /*/////////////////////          FEATURES          /////////////////////*/
 .img-content {
   position: absolute;
-  top: 77.5%;
+  top: 70%;
   left: 2.5%;
   width: 95%;
 }
