@@ -104,6 +104,7 @@ ul img {
   width: 49px;
   margin-right: 16px;
 }
+
 /*/////////////////////          FEATURES          /////////////////////*/
 .feature1 img {
   opacity: .8;
@@ -158,6 +159,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 /*/////////////////////          CARDS          /////////////////////*/
 
 .card {
@@ -196,9 +198,6 @@ h3 {
   transition: all .7s;
 }
 
-a {
-
-}
 /*/////////////////////          @MEDIA          /////////////////////*/
 @media screen and (max-width: 560px) {
   .extend {
@@ -283,6 +282,7 @@ a {
     transform: translateX(-2.5vw);
   }
 }
+
 @media screen and (min-width: 1600px) and (orientation : landscape) {
   h3 {
     margin-top: 68%;
